@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<form onsubmit="userInput(); return false">
+input <input id="num" type="number" name="number" >
+<button type="submit"> Submit</button>
+</form>
+
+<h1 id="result">  </h1>
+<script>
+
+function userInput(){
+
+let userInput1 = +(document.getElementById("num").value)
+let resultElement = +(document.querySelector("result").value)
+
+if( userInput1 == 5)
+{
+   
+
+    document.resultElement.innerHTML = userInput1 + ~";
+}
+
+else{
+
+
+    
+    document.getElementById("result").innerHTML = userInput1 + "Chala Ja B";
+}
+}
+</script>
+
+</body>
+</html>
